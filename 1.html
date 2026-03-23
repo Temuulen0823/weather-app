@@ -1,0 +1,74 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Weather App</title>
+    <script src="https://cdn.tailwindcss.com"></script>
+  </head>
+  <body
+    class="bg-gradient-to-br from-blue-400 to-indigo-600 min-h-screen flex items-center justify-center text-white"
+  >
+    <div
+      class="bg-white/10 backdrop-blur-lg rounded-2xl shadow-xl p-6 w-full max-w-md"
+    >
+      <div class="flex mb-6">
+        <input
+          type="text"
+          placeholder="Search city..."
+          class="w-full p-2 rounded-l-lg text-black outline-none"
+        />
+        <button class="bg-blue-500 px-4 rounded-r-lg hover:bg-blue-600">
+          🔍
+        </button>
+      </div>
+
+      <div class="text-center mb-6">
+        <h1 class="text-2xl font-bold">Ulaanbaatar</h1>
+        <p class="text-sm opacity-80">Monday, Clear Sky</p>
+
+        <div class="text-6xl my-4">☀️</div>
+
+        <h2 class="text-4xl font-semibold">-5°C</h2>
+      </div>
+
+      <div class="grid grid-cols-2 gap-4 text-sm mb-6">
+        <div class="bg-white/10 p-3 rounded-lg">💧 Humidity: 60%</div>
+        <div class="bg-white/10 p-3 rounded-lg">🌬️ Wind: 12 km/h</div>
+        <div class="bg-white/10 p-3 rounded-lg">🌡️ Feels like: -8°C</div>
+        <div class="bg-white/10 p-3 rounded-lg">☁️ Clouds: 10%</div>
+      </div>
+
+      <div>
+        <h3 class="mb-3 font-semibold">5-Day Forecast</h3>
+        <div class="flex justify-between text-center text-sm">
+          <div>
+            <p>Tue</p>
+            <p>⛅</p>
+            <p>-3°C</p>
+          </div>
+          <div>
+            <p>Wed</p>
+            <p>❄️</p>
+            <p>-7°C</p>
+          </div>
+          <div>
+            <p>Thu</p>
+            <p>☀️</p>
+            <p>-2°C</p>
+          </div>
+          <div>
+            <p>Fri</p>
+            <p>🌬️</p>
+            <p>-4°C</p>
+          </div>
+          <div>
+            <p>Sat</p>
+            <p>☀️</p>
+            <p>0°C</p>
+          </div>
+        </div>
+      </div>
+    </div>
+  </body>
+</html>
